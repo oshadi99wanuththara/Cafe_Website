@@ -49,7 +49,7 @@ cafe-website/
   </ol>
 
  
-  <h2>🎯 Future Improvements</h2>
+  <h2>Future Improvements</h2>
   <ul>
     <li>Online ordering system</li>
     <li>User login system</li>
@@ -57,7 +57,7 @@ cafe-website/
     <li>Backend database</li>
   </ul>
 
-  <h2>👨‍💻 Author</h2>
+  <h2>Author</h2>
   <p>Oshadhini</p>
 
 </body>
