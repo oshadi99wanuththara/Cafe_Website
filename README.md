@@ -48,14 +48,7 @@ cafe-website/
     <li>Open in your browser</li>
   </ol>
 
-  <h2>📸 Live Preview</h2>
-  <p>
-    👉 Click here to view the live website: 
-    <a href="https://oshadi99wanuththara.github.io/Cafe_Website/" target="_blank"></a>
-  </p>
-
-  
-
+ 
   <h2>🎯 Future Improvements</h2>
   <ul>
     <li>Online ordering system</li>
