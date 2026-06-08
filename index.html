@@ -1,0 +1,165 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cake Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <nav class="nav">
+      <a class="logo" href="#home">CAKE SHOP</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Orders</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-copy">
+        <span class="eyebrow">Fresh cakes & drinks</span>
+        <h1>Delight in every slice and sip.</h1>
+        <p>Experience a modern dessert destination with handcrafted cakes, beautiful custom creations, and refreshing beverages.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore Menu</a>
+          <a class="button button-secondary" href="#order">Order Online</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="images/image02.jpg" alt="Featured cake">
+        <div class="hero-card-body">
+          <p class="eyebrow">Chef's choice</p>
+          <h2>Signature Layered Cake</h2>
+          <p>Handcrafted with fresh berries, creamy frosting, and an elegant finish.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about">
+      <div class="section-grid">
+        <div>
+          <span class="eyebrow"><h1>About us</h1></span>
+          <h2>Modern bakery vibes, delightful treats.</h2>
+          <p>At The Cake Shop, we blend cozy cafe charm with contemporary styling, 
+            premium ingredients, and seasonal flavors to create moments worth celebrating.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Custom Cakes</h3>
+            <p>Personalized designs for birthdays, weddings, and all celebrations.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Fresh Beverages</h3>
+            <p>From iced lattes to warm matcha, every drink is made to order.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Fast Online Orders</h3>
+            <p>Place your order quickly and pick it up fresh from the shop.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="section-heading">
+        <span class="eyebrow"><h2>Our Menu</h2></span>
+        <h2>Browse cakes & beverages</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img src="images/image12.jpg" alt="Chocolate cake">
+          <div class="menu-card-body">
+            <h3>Cakes</h3>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="images/image13.jpg" alt="Dessert drink">
+          <div class="menu-card-body">
+            <h3>Cold Beverages</h3>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="images/image06.jpg" alt="Coffee drink">
+          <div class="menu-card-body">
+            <h3>Hot Beverages</h3>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="images/image 10.jpg" alt="Coffee drink">
+          <div class="menu-card-body">
+            <h3>Birthday Cakes</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section order" id="order">
+      <div class="order-grid">
+        <div class="order-info">
+          <span class="eyebrow"><h2>Order online</h2></span>
+          <h2>Customize your cake and place your order</h2>
+          <p>Tell us your favorite style, flavor, and occasion, and we will create a delicious centerpiece for your celebration.</p>
+          <p class="order-note">Need inspiration? Explore our menu, then send your request below.</p>
+        </div>
+
+        <form class="order-form">
+          <label>
+            Name
+            <input type="text" name="Name" placeholder="Your name">
+          </label>
+          <label>
+            Contact Number
+            <input type="text" name="Contact number" placeholder="077 345 67467">
+          </label>
+          <label>
+            Category
+            <select>
+              <option>Cakes</option>
+              <option>Hot Beverages</option>
+              <option>Cold Beverages</option>
+            </select>
+          </label>
+          <label>
+            Your Order
+            <textarea rows="6" placeholder="Describe your order..."></textarea>
+          </label>
+          <button type="button" class="button button-primary" onclick="myfunction()">Send order</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-grid">
+        <div>
+          <span class="eyebrow"><h1>Contact Us</h1></span>
+          <h2>Reach out to The Cake Shop</h2>
+          <p>Visit us on Main Road, Colombo, or connect with us by phone, email, or WhatsApp.</p>
+          <ul>
+            <li>Phone: 037 546 76375</li>
+            <li>Email: thecakeshop@gmail.com</li>
+            <li>WhatsApp: 077 345 67467</li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <img src="images/logo.jpg" alt="Cake Shop logo">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 The Cake Shop. Crafted with love for sweet celebrations.</p>
+  </footer>
+
+  
